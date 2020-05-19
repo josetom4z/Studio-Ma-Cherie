@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+header a.navbar-brand {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.big-title {
+  background-color: #eea9aa;
+}
+
+.big-title h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.big-title img {
+  border-radius: 20%;
+}
+
+.nav-link {
+  font-weight: 500;
+  text-decoration: underline #faf3dd;
+}
+
+.bloco {
+  min-height: 100%;
+  padding-top: 40px;
+}
+
+/* Titulo e Paragrafo */
+
+.title {
+  font-size: 2rem;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  border-top: 1px solid #2dc7d0;
+  margin: 15px auto;
+}
+
+.paragraph {
+  line-height: 1.8rem;
+}
+
+.contact h4 {
+  font-weight: 600;
+  /* padding: 2%; */
+}
+
+.contact a {
+  font-size: 3rem;
+  color: #ffa69e;
+}
+
+.space {
+  background-color: #aed9e0;
+  color: #fff;
+  min-height: 100%;
+}
+
+.space p {
+  font-size: 1.3rem;
+}
+
+nav > .nav.nav-tabs {
+  border: none;
+  color: #fff;
+  background: #272e38;
+  border-radius: 0;
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color: #fff;
+  background: #272e38;
+  border-radius: 0;
+}
+
+nav > div a.nav-item.nav-link.active:after {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #f8948b;
+}
+.tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #f8948b;
+  border-bottom: 5px solid #f8948b;
+  padding: 30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #f8948b;
+  color: #fff;
+  border-radius: 0;
+  transition: background 0.2s linear;
+}
+
+.servic-icon {
+  font-size: 0.8rem;
+}
+
+.services {
+  justify-content: center;
+}
+
+#nav-tab {
+  min-width: 100%;
+}
+
+.tab-pane {
+  margin: 2% 10% 0;
+  text-align: left;
+}
+
+#nav-hair {
+  margin-left: 15%;
+}
+
+.instagram {
+  background-color: #faf3dd;
+}
+
+.professionals {
+  background-color: #eea9aa;
+  color: #fff;
+}
+
+#prof h4 i {
+  color: #128c7e;
+  font-weight: 900;
+}
+
+#prof h4 {
+  margin-bottom: 5%;
+}
+
+.rounded-circle {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 3%;
+}
+
+footer {
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+  right: 10%;
+  top: -100;
+}
+
+.rights {
+  margin-top: 100px;
+}
