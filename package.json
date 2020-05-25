@@ -1,0 +1,23 @@
+{
+  "name": "studio-ma-cherie",
+  "version": "1.0.0",
+  "description": "A website for Studio Ma Cherie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josetom4z/Studio-Ma-Cherie.git"
+  },
+  "author": "Jose Tomaz R J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josetom4z/Studio-Ma-Cherie/issues"
+  },
+  "homepage": "https://github.com/josetom4z/Studio-Ma-Cherie#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
